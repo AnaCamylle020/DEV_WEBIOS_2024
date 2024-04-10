@@ -1,0 +1,24 @@
+body{
+    /*backgroud-color: #b0e0e6; */
+ background-image: url("https://picsum.photos/id/1040/600/400");
+  background-repeat: no-repeat;
+  background-size:   100%; 
+  /*backgroud position:center*/
+  background-attachment: scroll; 
+}
+
+p {border-color: 2px solid blue;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 0px 5px 0 0px;
+   background-color: pink;}
+    
+   /*border: 2px outsed blue;*/
+/* top rigth bottom left*/
+
+img{border-radius: 10px;
+}
+
+#imagem{
+    border: 10px solid green
+}
