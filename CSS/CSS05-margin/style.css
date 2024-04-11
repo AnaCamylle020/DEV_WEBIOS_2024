@@ -1,0 +1,15 @@
+/*coloque um borda solid de 1 px e cor da sua
+escolha*/
+
+#secao{
+    border: 4px solid rgb(224, 15, 231);
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left:  50px;
+
+/* padding: 10px,50px 20px,50px=igual o primeiro porém em abreviação */
+   /* padding 10px(equivale ao mesmo tamanho de margem para todos */
+        /*  top rigth bottom  left*/
+}
+    
