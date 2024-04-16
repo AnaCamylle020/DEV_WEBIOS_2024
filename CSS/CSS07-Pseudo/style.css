@@ -1,0 +1,6 @@
+div,section,footer{
+    border: 2px solid black;
+}
+ p:first-child{
+    background-color: blueviolet;
+ }
