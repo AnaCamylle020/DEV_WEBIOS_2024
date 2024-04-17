@@ -1,6 +1,40 @@
-div,section,footer{
-    border: 2px solid black;
-}
+/* div,section,footer{
+    border: 2px solid black; */
+/* }
  p:first-child{
     background-color: blueviolet;
- }
+    font-size: 20px;
+ } */
+
+#botao{
+    border: 3px solid burlywood ;
+    background-color: #ff6347;
+    border-radius: 5px;
+}
+
+#botao:hover{
+    color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#paragrafohouver:hover{
+    background-color: blue;
+    color: black;
+}
+
+#titulo2:hover{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#imagem:hover{
+    box-shadow: 10px 10px 10px
+    #1e90ff;
+    width: 700px;
+    height: 700;
+}
+/*pseudoElemento/*-é algo implicito*/
+#pseudo::before{
+    content: 'ultilizando before'
+}
