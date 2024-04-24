@@ -1,0 +1,9 @@
+#container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    
+}
+.itens{
+    border: 1px solid black;
+    padding: 3px;
+}
