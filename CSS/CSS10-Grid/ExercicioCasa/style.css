@@ -1,0 +1,75 @@
+*{
+    margin-left: 2px;
+    margin-right: 5px;
+    background-color: #dd41d0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 25fr);
+    grid-template-rows: repeat(6, 65fr);
+    grid-template-areas: "item-1 item-1 item-2 item-2" "item-3 item-3 item-3 item-3" "item-4 item-4 item-4 item-4" ". item-5 item-5 ." "item-6 item-6 item-6 item-6" "item-7 item-7 item-8 item-9";
+    row-gap: 15px;
+    column-gap: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.itens{
+    border: 3px solid rgb(46, 236, 221);
+}
+
+#item-1{
+    grid-area: item-1;
+    background-color: rgb(46, 33, 218);
+    color: rgb(106, 215, 223);
+}
+
+#item-2{
+    grid-area: item-2;
+    background-color: rgb(10, 146, 44);
+    color: rgb(196, 26, 77);
+}
+
+#item-3{
+    grid-area: item-3;
+    background-color: rgba(194, 98, 19, 0.547);
+    color: white (255, 255, 255, 0.671);
+}
+
+#item-4{
+    grid-area: item-4;
+    background-color: rgb(110, 7, 171);
+    color: white;
+}
+
+#item-5{
+    grid-area: item-5;
+    background-color: rgb(22, 24, 192);
+    color: white;
+}
+
+#item-6{
+    grid-area: item-6;
+    background-color: rgb(56, 136, 101);
+    color: white;
+}
+
+#item-7{
+    grid-area: item-7;
+    background-color: rgb(26, 228, 86);
+    color: white;
+}
+
+#item-8{
+    grid-area: item-8;
+    background-color: rgb(41, 118, 141);
+    color: white;
+}
+
+#item-9{
+    grid-area: item-9;
+    background-color: rgb(171, 2, 2);
+    color: white;
+}
