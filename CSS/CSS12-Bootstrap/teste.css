@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+#titulo{
+    background-color: aqua;
+    text-align: center;
+}
+
+#navegacao{
+    background-color: rgb(136, 127, 255);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+span{
+    color: brown;
+}
+
+a{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
