@@ -1,102 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>documento</title>
-</head>
-<body>
-     <h2>Camys Sorvetes</h2>
-    <form action="">
-        <fieldset>
-            <legend>Informações sobre o usuário</legend>
-            <label>NOME:</label> <br>
-            <input type="text"> <br><br>
-            <label>IDADE:<br>
-            <input type="number"> <br><br>
-            <label>GMAIL:</label><br>
-            <input type="text"><br><br>
-            <label>TELEFONE:</label><br>
-            <input type="number"><br><br>
-        
-        </fieldset>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 07</title>
+    </head>
+    <body>
+        <!--FORMULÁRIOS-->
 
-        <br>
+        <form action="./inscricao.html">
+            <fieldset>
+                <legend>FORMULÁRIO</legend>
+                <fieldset>
+                    <label>Nome da Empresa:</label>
+                    <input type="text"><br>
+    
+                    <label>Data de Entrada:</label>
+                    <input type="date"><br>
+    
+                    <label>Quantidade de Funcionários:</label>
+                    <input type="number"><br>
+    
+                    <label>Seu Salário:</label>
+                    <input type="number">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Ainda está na empresa?</legend>
+                    <input type="radio" name="color">
+                    <label>Sim</label>
+                    <input type="radio"name="color">
+                    <label>Não</label>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Modelo de Contrato</legend>
+                    <input type="radio" name="Ida">
+                    <label>PJ</label><br>
+                    <input type="radio" name="Ida">
+                    <label>CLT</label>
+                </fieldset><br>
 
-      <fieldset>
-      <legend>COBERTURAS</legend>
-      <input type="radio" name="ida">
-      <label>Com cobertura</label><br>
-      <input type="radio" name="ida">
-      <label> Ou sem </label><br>
- 
-    </fieldset>
-       <br>
-    <fieldset>
-    <legend>Ingedientes Adicionais</legend>
-    <input type="checkbox">
-    <label>Sucrilhos</label><br>
-    <input type="checkbox">
-    <label>Amendoin</label><br>
-    <input type="checkbox">
-    <label>Noses/castanhas</label><br>
-    <input type="checkbox">
-    <label>Canudinhos(cholates,morango)</label><br>
+                <fieldset>
+                    <legend>BENEFÍCIOS</legend>     
+                    <input type="checkbox">
+                    <label>Vale refeição</label><br>
+                    <input type="checkbox">
+                    <label>Vale Alimentação</label><br>
+                    <input type="checkbox">
+                    <label>Vale transporte</label><br>
+                    <input type="checkbox">
+                    <label>Academias</label><br>
+                    <input type="checkbox">
+                    <label>PLR</label><br>
+                    <input type="checkbox">
+                    <label>Plano de saúde</label><br>
+                    <input type="checkbox">
+                    <label>Plano odontológico</label><br>
+                    <input type="checkbox">
+                    <label>Cesta básica</label><br>
+                    <input type="checkbox">
+                    <label>Day off</label><br>
+                    <input type="checkbox">
+                    <label>Bolsa de estudos</label><br>
+                    <input type="checkbox">
+                    <label>Licença a maternidade ou
+                        paternidade</label><br>
+                    <input type="checkbox">
+                    <label>Pet friendly</label><br>
+                    <input type="checkbox">
+                    <label>Empréstimo consignado</label><br>
+                </fieldset>
+    
+                <br>
+                
+                <textarea cols="20" rows="10" placeholder="Prós da Empresa..."></textarea>
 
+                <textarea cols="20" rows="10" placeholder="Contras da Empresa..."></textarea>
 
-</fieldset>
-    <br><br>
-<fieldset> 
-    <legend>
-        Quantidade de Bolas
-    </legend>
-     1
-<input type="range">
+                <br><br><input type="submit" value="ENVIAR">
+            </fieldset>
 
-   10
-</fieldset>
-     <br> <br> <br>
-     
-     <fieldset>
-        <legend>SABORES</legend>
-        <select>
-        <option value="">Chocolate</option>
-        <option value="Gru-Guarulhos">Sensação</option>
-        <option value="Congonhas">Morango</option>
-        <option value="Santos dumond">Flocos</option>
-        <option value="Aeroporto Internacional de Viracopos">Napolitano</option>
-        <option value="Aeroporto Campo de marte">Creme</option>
+        </form>
 
-        </select>
-     </fieldset>
-     
-     <br> <br>
-
-     <fieldset>
-       <legend>TIPOS DE SORVETE</legend>
-       <input type="text" list="Cidade">
-       <datalist id="Cidade">
-        <option value="Massa"></option>
-        <option value="Picolé"></option>
-        <option value="Açaí"></option>
-        <option value="Banana Split"></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        </datalist>
-
-     </fieldset>
-      <br>  <br>
-      <label>Deixe suas observações</label>
-
-     <br>
-     <textarea name="" id="" cols="100" rows="10"></textarea>
-    </form>
-       
-   
-</body>
+    </body>
 </html>
