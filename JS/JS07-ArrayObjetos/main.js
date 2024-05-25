@@ -44,6 +44,7 @@ let tarefa= [ //<<array
 },
 
 {//2
+    
     id:3,
     isPronta:false,
     nomeTarefa:"Nadar em pisicna"
