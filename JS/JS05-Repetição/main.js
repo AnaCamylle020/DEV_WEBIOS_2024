@@ -1,4 +1,4 @@
-//While
+//While= enquanto
 //enquanto 0 <10 vou apresentar  a mensagem " 0ainda é menor que 10"
 
 var contador =0
@@ -17,24 +17,25 @@ var contador =0
 //     contador ++;
 // }while(contador<10)
 
-var contador = 10
-
 // while(conatador < 10)
 //  console.log(conatador +"ainda é menor que 10")
 // contador ++;//contador =contador + 1 
 
-//exemplo de lição de cas
+while(contador <= 10){ //while verifica se é verdadeiro
+    console.log(contador+"0 ainda é menor que 10")
+    contador++
+}
+for(var contador = 10; contador <  10 && contador >= 5 || contador == 90; contador++){
+    console.log(contador + " ainda é menor10")
+}
+
+////exemplo de lição de casa
 if{
     for (){
 
     }
-}else{
+}else {
     while(){
 
     }
-}//
-
-
-for(var contador = 10; contador <  10 && contador >= 5 || contador == 90; contador++){
-    console.log(contador + " ainda é menor10")
 }
