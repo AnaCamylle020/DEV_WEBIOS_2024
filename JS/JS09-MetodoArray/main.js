@@ -63,7 +63,7 @@ function retornaFiltro(num){
 console.log(resultado)
 
 let tarefaFiltro= tarefa.map((resultadoFiltro)=>{
-    return resultadoFiltro.isProta ===false
+    return resultadoFiltro.isPronta ===false
 })
 console.log (tarefaFiltro)
 console.clear()
