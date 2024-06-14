@@ -4,21 +4,23 @@ function getImage(e) {
     let url_api = document.getElementById('url_api').innerText;
     // console.log(url_api);
     // Função fetch para buscar dados na API
-    fetch(url_api, {
-    method: 'GET',
-    })
-    .then((response) => {
-    return response.json();
+  fetch(url_api) .then((response) => {
+    return response.json();//Receber o JSON
     })
     .then((data) => {
     // console.log(data);
     document.getElementById('json_aqui').innerText =
     JSON.stringify(data);
     // console.log(data.message)
-    let imagem = `
-    <img class="rounded img-fluid" src="${data.message}" />
+    let imagem = `<img class="rounded img-fluid" src="${data.message}" />
     `;
     // Insere a imagem no elemento HTML com id imagem_aqui
     document.querySelector('#imagem_aqui').innerHTML = imagem;
     });
 }
+
+//stringify>> pega um JSON e tranforma em objeto
+//JSON>> Transforma um objeto em formato
+
+//fetch(url).then(receber o JSON).then(Tratar o JSON e mostrar as informações em tela para o usuario).catch(catch é para tratar erros
+//retornando pela API)
